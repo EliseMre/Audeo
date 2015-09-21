@@ -1,0 +1,602 @@
+{
+    "mat": [
+        {
+            "id": "contraction",
+            "name": "contraction de text ehec"
+        },
+        {
+            "id": "synthese",
+            "name": "synthèse de textes escp europe"
+        },
+        {
+            "id": "lv1",
+            "name": "languevivante ielvi"
+        },
+        {
+            "id": "mathehec",
+            "name": "mathématiques e hec"
+        },
+        {
+            "id": "matheessec",
+            "name": "mathématiques e essec"
+        },
+        {
+            "id": "matheemlyon",
+            "name": "mathématiques e emlyon"
+        },
+        {
+            "id": "math2eessec",
+            "name": "mathématiques 2e essec"
+        },
+        {
+            "id": "matheedhec",
+            "name": "mathématiques e edhec"
+        },
+        {
+            "id": "lv2",
+            "name": "languevivante II elvi"
+        },
+        {
+            "id": "eshhec",
+            "name": "eco.,socio. ethist. hec"
+        },
+        {
+            "id": "eshessec",
+            "name": "eco.,socio. ethist. essec"
+        },
+        {
+            "id": "eshescp",
+            "name": "eco.,socio. ethist. escpeurope"
+        },
+        {
+            "id": "lv1iena",
+            "name": "languevivante i iena"
+        },
+        {
+            "id": "lv2ena",
+            "name": "languevivante II iena"
+        },
+        {
+            "id": "cghec",
+            "name": "diss. culture générale hec"
+        },
+        {
+            "id": "cgemlyon",
+            "name": "diss. culture générale emlyon"
+        },
+        {
+            "id": "cgedhec",
+            "name": "diss. culture générale edhec/essec"
+        }
+    ],
+    "ecoles": {
+        "AUDENCIA Nantes": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                8,
+                3,
+                0,
+                0,
+                6,
+                0,
+                0,
+                5,
+                0,
+                0
+            ]
+        },
+        "École de Management de NORMANDIE": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                6,
+                5,
+                0,
+                5,
+                0
+            ]
+        },
+        "EDHEC Grande École": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                5,
+                0,
+                0,
+                0,
+                2,
+                6,
+                2,
+                0,
+                0,
+                7,
+                0,
+                0,
+                0,
+                0,
+                5
+            ]
+        },
+        "EM STRASBOURG Business School": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                8,
+                5,
+                0,
+                4,
+                0
+            ]
+        },
+        "EM LYON Business School": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                5,
+                0,
+                0,
+                4,
+                2,
+                0,
+                3,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                5,
+                0
+            ]
+        },
+        "ESCDIJON-BOURGOGNE": {
+            "seuil": 14,
+            "coefs": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                7,
+                5,
+                0,
+                4,
+                0
+            ]
+        },
+        "ESCLAROCHELLE": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                6,
+                4,
+                0,
+                6,
+                0
+            ]
+        },
+        "ESCRENNESSchoolofBusiness": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                8,
+                5,
+                0,
+                4,
+                0
+            ]
+        },
+        "ESCPEurope": {
+            "seuil": 14,
+            "coefs": [
+                0,
+                3,
+                5,
+                4,
+                0,
+                0,
+                3,
+                0,
+                3,
+                0,
+                0,
+                7,
+                0,
+                0,
+                5,
+                0,
+                0
+            ]
+        },
+        "ESSEC": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                4,
+                0,
+                4,
+                0,
+                4,
+                0,
+                2,
+                0,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+            ]
+        },
+        "GRENOBLEÉcoledeManagement": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                9,
+                4,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                2,
+                0
+            ]
+        },
+        "GroupeESCPAU": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                7,
+                4,
+                0,
+                5,
+                0
+            ]
+        },
+        "GroupeESCTROYES": {
+            "seuil": 14,
+            "coefs": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                6,
+                4,
+                0,
+                5,
+                0
+            ]
+        },
+        "HECParis": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                4,
+                4,
+                0,
+                0,
+                4,
+                0,
+                2,
+                7,
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                0
+            ]
+        },
+        "InseecBS(devenueInsignisBS)": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                7,
+                6,
+                0,
+                6,
+                0
+            ]
+        },
+        "ISCParisBusinessSchool": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                7,
+                5,
+                0,
+                4,
+                0
+            ]
+        },
+        "ISG": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                7,
+                5,
+                0,
+                4,
+                0
+            ]
+        },
+        "MONTPELLIERBusinessSchool": {
+            "seuil": 14,
+            "coefs": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                7,
+                6,
+                4,
+                0,
+                4,
+                0
+            ]
+        },
+        "SKEMABusinessSchool": {
+            "seuil": 14,
+            "coefs": [
+                0,
+                5,
+                5,
+                0,
+                0,
+                4,
+                0,
+                0,
+                5,
+                0,
+                0,
+                7,
+                0,
+                0,
+                0,
+                4,
+                0
+            ]
+        },
+        "TELECOMÉcoledeManagement": {
+            "seuil": 14,
+            "coefs": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                6,
+                3,
+                0,
+                5,
+                0
+            ]
+        },
+        "TOULOUSEBusinessSchool": {
+            "seuil": 14,
+            "coefs": [
+                0,
+                3,
+                5,
+                0,
+                0,
+                0,
+                0,
+                7,
+                3,
+                0,
+                0,
+                7,
+                0,
+                0,
+                0,
+                5,
+                0
+            ]
+        },
+        "ENAss": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                4,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                3,
+                0,
+                0
+            ]
+        },
+        "ESMdeSaint-CyrSES": {
+            "seuil": 14,
+            "coefs": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                12,
+                7,
+                6,
+                0,
+                8,
+                0
+            ]
+        },
+        "ISCID-CO": {
+            "seuil": 14,
+            "coefs": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                3,
+                5,
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
