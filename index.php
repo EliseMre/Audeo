@@ -80,7 +80,7 @@ foreach($data->mat as $mat)
                                                         <span class="glyphicon glyphicon-minus"></span>
                                                     </button>
                                                     </span>
-                                                    <input type="number" name="<?=$mat->id?>" id="<?=$mat->id?>" class="form-control input-number" value="0" min="0" max="20">
+                                                    <input type="number" name="<?=$mat->id?>" id="<?=$mat->id?>" class="form-control input-number" value="10" min="0" max="20">
                                                     <span class="input-group-btn">
                                                     <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="<?=$mat->id?>">
                                                         <span class="glyphicon glyphicon-plus"></span>
@@ -95,6 +95,13 @@ foreach($data->mat as $mat)
                             <div class="panel-footer">
                                 <a class="btn btn-primary btn-large aright" id="cal">Calculer</a>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-0">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Résults</div>
+                            <table class="table">
+                            </table>
                         </div>
                     </div>
                 </div>

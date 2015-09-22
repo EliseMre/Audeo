@@ -8,17 +8,17 @@ $("#cal").click(function () {
         $.each(data.mat, function (i) {
             usr[i] = $("#" + this.id).val();
         });
+        console.log(usr);
 
-        var i = 0;
-        $.each(data.ecoles, function (name, props) {
+        $.each(data.ecoles, function (i, ecole) {
             var som = 0;
             var note = 0;
-            $.each(props.coefs, function (i, coef) {
+            $.each(ecole.coefs, function (j, coef) {
                 som += coef;
-                note += coef * usr[i];
+                note += coef * usr[j];
             });
-            ave[i++] = note / som;
-            console.log(name + ": " + ave[i - 1]);
+            ave[i] = note / som;
+            console.log(ecole.name + ": " + ave[i]);
         });
     });
 });

@@ -69,9 +69,10 @@
             "name": "diss. culture générale edhec/essec"
         }
     ],
-    "ecoles": {
-        "AUDENCIA Nantes": {
-            "seuil": 14,
+    "ecoles": [
+        {
+            "name": "AUDENCIA Nantes",
+            "seuil": 11.40,
             "coefs": [
                 3,
                 0,
@@ -92,8 +93,9 @@
                 0
             ]
         },
-        "École de Management de NORMANDIE": {
-            "seuil": 14,
+        {
+            "name": "EM Normandie",
+            "seuil": 6.00,
             "coefs": [
                 3,
                 0,
@@ -114,8 +116,9 @@
                 0
             ]
         },
-        "EDHEC Grande École": {
-            "seuil": 14,
+        {
+            "name": "EDHEC Grande École",
+            "seuil": 12.58,
             "coefs": [
                 3,
                 0,
@@ -136,8 +139,9 @@
                 5
             ]
         },
-        "EM STRASBOURG Business School": {
-            "seuil": 14,
+        {
+            "name": "EM Strasbourg Business School",
+            "seuil": 8.10,
             "coefs": [
                 3,
                 0,
@@ -158,8 +162,9 @@
                 0
             ]
         },
-        "EM LYON Business School": {
-            "seuil": 14,
+        {
+            "name": "EM Lyon Business School",
+            "seuil": 12.12,
             "coefs": [
                 3,
                 0,
@@ -180,8 +185,9 @@
                 0
             ]
         },
-        "ESCDIJON-BOURGOGNE": {
-            "seuil": 14,
+        {
+            "name": "ESC Dijon-Bourgogne",
+            "seuil": 7.01,
             "coefs": [
                 4,
                 0,
@@ -202,8 +208,9 @@
                 0
             ]
         },
-        "ESCLAROCHELLE": {
-            "seuil": 14,
+        {
+            "name": "ESC La Rochelle",
+            "seuil": 6.99,
             "coefs": [
                 3,
                 0,
@@ -224,8 +231,9 @@
                 0
             ]
         },
-        "ESCRENNESSchoolofBusiness": {
-            "seuil": 14,
+        {
+            "name": "ESC Rennes School of Business",
+            "seuil": 8.60,
             "coefs": [
                 3,
                 0,
@@ -246,8 +254,9 @@
                 0
             ]
         },
-        "ESCPEurope": {
-            "seuil": 14,
+        {
+            "name": "ESCP Europe",
+            "seuil": 12.87,
             "coefs": [
                 0,
                 3,
@@ -268,8 +277,9 @@
                 0
             ]
         },
-        "ESSEC": {
-            "seuil": 14,
+        {
+            "name": "ESSEC",
+            "seuil": 13.05,
             "coefs": [
                 3,
                 0,
@@ -290,8 +300,9 @@
                 6
             ]
         },
-        "GRENOBLEÉcoledeManagement": {
-            "seuil": 14,
+        {
+            "name": "Grenoble École de Management",
+            "seuil": 11.50,
             "coefs": [
                 3,
                 0,
@@ -312,8 +323,9 @@
                 0
             ]
         },
-        "GroupeESCPAU": {
-            "seuil": 14,
+        {
+            "name": "Groupe ESC PAU",
+            "seuil": 5.00,
             "coefs": [
                 3,
                 0,
@@ -334,8 +346,9 @@
                 0
             ]
         },
-        "GroupeESCTROYES": {
-            "seuil": 14,
+        {
+            "name": "Groupe ESC TROYES",
+            "seuil": 5.30,
             "coefs": [
                 4,
                 0,
@@ -356,8 +369,9 @@
                 0
             ]
         },
-        "HECParis": {
-            "seuil": 14,
+        {
+            "name": "HEC Paris",
+            "seuil": 13.91,
             "coefs": [
                 3,
                 0,
@@ -378,8 +392,9 @@
                 0
             ]
         },
-        "InseecBS(devenueInsignisBS)": {
-            "seuil": 14,
+        {
+            "name": "Inseec BS (devenue Insignis BS)",
+            "seuil": 5.01,
             "coefs": [
                 3,
                 0,
@@ -400,8 +415,9 @@
                 0
             ]
         },
-        "ISCParisBusinessSchool": {
-            "seuil": 14,
+        {
+            "name": "ISC Paris Business School",
+            "seuil": 6.02,
             "coefs": [
                 3,
                 0,
@@ -422,8 +438,9 @@
                 0
             ]
         },
-        "ISG": {
-            "seuil": 14,
+        {
+            "name": "ISG",
+            "seuil": 5.53,
             "coefs": [
                 3,
                 0,
@@ -444,8 +461,9 @@
                 0
             ]
         },
-        "MONTPELLIERBusinessSchool": {
-            "seuil": 14,
+        {
+            "name": "Montpellier Business School",
+            "seuil": 8.55,
             "coefs": [
                 4,
                 0,
@@ -466,8 +484,9 @@
                 0
             ]
         },
-        "SKEMABusinessSchool": {
-            "seuil": 14,
+        {
+            "name": "SKEMA Business School",
+            "seuil": 8.80,
             "coefs": [
                 0,
                 5,
@@ -488,8 +507,9 @@
                 0
             ]
         },
-        "TELECOMÉcoledeManagement": {
-            "seuil": 14,
+        {
+            "name": "TELECOM École de Management",
+            "seuil": 9,
             "coefs": [
                 0,
                 4,
@@ -502,82 +522,40 @@
                 0,
                 0,
                 0,
-                7,
-                6,
-                3,
-                0,
-                5,
-                0
-            ]
-        },
-        "TOULOUSEBusinessSchool": {
-            "seuil": 14,
-            "coefs": [
-                0,
-                3,
-                5,
-                0,
-                0,
-                0,
-                0,
-                7,
-                3,
-                0,
-                0,
-                7,
-                0,
-                0,
-                0,
-                5,
-                0
-            ]
-        },
-        "ENAss": {
-            "seuil": 14,
-            "coefs": [
-                3,
-                0,
-                4,
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                0,
-                3,
-                0,
-                0
-            ]
-        },
-        "ESMdeSaint-CyrSES": {
-            "seuil": 14,
-            "coefs": [
-                4,
-                0,
-                0,
-                0,
-                0,
-                9,
-                0,
-                0,
-                0,
-                0,
-                0,
-                12,
                 7,
                 6,
+                3,
                 0,
-                8,
+                5,
                 0
             ]
         },
-        "ISCID-CO": {
-            "seuil": 14,
+        {
+            "name": "Toulouse Business School",
+            "seuil": 10.55,
+            "coefs": [
+                0,
+                3,
+                5,
+                0,
+                0,
+                0,
+                0,
+                7,
+                3,
+                0,
+                0,
+                7,
+                0,
+                0,
+                0,
+                5,
+                0
+            ]
+        },
+        {
+            "name": "ISCID-CO",
+            "seuil": 6.02,
             "coefs": [
                 3,
                 0,
@@ -598,5 +576,5 @@
                 0
             ]
         }
-    }
+    ]
 }
