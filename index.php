@@ -36,8 +36,8 @@
         <div class="container">
 
             <header class="jumbotron main-jumbo center">
-                <h1>Calcul vos moyennes</h1>
-                <p>Vous êtes en deuxième année de prépa et il est temps de se poser les bonnes questions. Post-Prépa vous aide a trouver l'école la plus adaptée a votre niveau en calculant pour vous les moyennes que vous obtiendrez aux concours sur la base des notes que vous estimez</p>
+                <h1>Calcul de vos moyennes au concours BCE</h1>
+                <p>Si vous êtes en première ou en deuxième année de prépa ECE, vous êtes sur le bon site ! Audeo calcule selon vos prévisons, les écoles qui vous seront accessibles</p>
 
                 <p><a class="btn btn-primary btn-large" id="goToPre">Aller aux previsions</a></p>
             </header>
@@ -47,14 +47,14 @@
 </blockquote>-->
             <div class="content">
                 <div class="page-header" id="previsions">
-                    <h1>Mes prévisions <small>soyez réaliste..</small></h1>
+                    <h1>Mes prévisions</h1>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-md-6">
                         <div class="panel panel-primary">
                             <div class="panel-heading">Matières</div>
                             <div class="panel-body">
-                                <p>Entrez les notes que vous prevoyez d'avoir à vos concours. Aucune matière n'est obligatoire et les coeafficient sont pris en compte automatiquement et en fonction des écoles.</p>
+                                <p>Entrez les notes que vous prévoyez d'avoir à vos concours. Aucune matière n'est obligatoire et les coefficient sont pris en compte automatiquement et en fonction des écoles.</p>
                             </div>
                             <table class="table table-hover">
                                 <thead>
