@@ -54,7 +54,7 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading">Matières</div>
                             <div class="panel-body">
-                                <p>Entrez les notes que vous prevoyez d'avoir a vos concours. Aucune matière n'est obligatoire et les coeafficient sont pris en compte automatiquement et en fonction des écoles.</p>
+                                <p>Entrez les notes que vous prevoyez d'avoir à vos concours. Aucune matière n'est obligatoire et les coeafficient sont pris en compte automatiquement et en fonction des écoles.</p>
                             </div>
                             <table class="table table-hover">
                                 <thead>
