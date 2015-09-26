@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Starter Template for Bootstrap 3.3.5</title>
+    <title>Post Prépa</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
@@ -36,8 +36,8 @@
         <div class="container">
 
             <header class="jumbotron main-jumbo">
-                <h1>Bienvenue sur Post-Prépa !</h1>
-                <p>Vous êtes en deuxième année de prépa et il est temps de se poser les bonnes questions. Post-Prépa vous aide a trouver l'école la plus adaptée a votre niveau !</p>
+                <h1>Calcul vos moyennes</h1>
+                <p>Vous êtes en deuxième année de prépa et il est temps de se poser les bonnes questions. Post-Prépa vous aide a trouver l'école la plus adaptée a votre niveau en calculant pour vous les moyennes que vous obtiendrez aux concours sur la base des notes que vous estimez</p>
 
                 <p><a class="btn btn-primary btn-large" href="#previsions">Aller aux previsions</a></p>
             </header>
@@ -52,7 +52,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6">
                         <div class="panel panel-primary">
-                            <div class="panel-heading">Panel</div>
+                            <div class="panel-heading">Matières</div>
                             <div class="panel-body">
                                 <p>Entrez les notes que vous prevoyez d'avoir a vos concours. Aucune matière n'est obligatoire et les coeafficient sont pris en compte automatiquement et en fonction des écoles.</p>
                             </div>
@@ -99,7 +99,7 @@ foreach($data->mat as $mat)
                     </div>
                     <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-0 hide" id="res">
                         <div class="panel panel-default">
-                            <div class="panel-heading">Résults</div>
+                            <div class="panel-heading">Ecoles</div>
                             <table class="table" id="res-tab">
                             </table>
                         </div>
@@ -109,17 +109,15 @@ foreach($data->mat as $mat)
 
             <hr>
 
-            <!-- Footer -->
             <footer>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>Copyright &copy; Your Website 2014</p>
+                        <p>Copyright &copy; Maxime Lewandowski (version 0.6)</p>
                     </div>
                 </div>
             </footer>
 
         </div>
-        <!-- /.container -->
 
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
