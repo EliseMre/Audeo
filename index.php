@@ -39,14 +39,14 @@
                 <h1>Calcul vos moyennes</h1>
                 <p>Vous êtes en deuxième année de prépa et il est temps de se poser les bonnes questions. Post-Prépa vous aide a trouver l'école la plus adaptée a votre niveau en calculant pour vous les moyennes que vous obtiendrez aux concours sur la base des notes que vous estimez</p>
 
-                <p><a class="btn btn-primary btn-large" href="#previsions">Aller aux previsions</a></p>
+                <p><a class="btn btn-primary btn-large" id="goToPre">Aller aux previsions</a></p>
             </header>
             <!--<blockquote>
     <p>“Sans ambition il n’y a pas de talent.”</p>
     <p><small>Nina Berberova</small></p>
 </blockquote>-->
-            <div class="content" id="previsions">
-                <div class="page-header">
+            <div class="content">
+                <div class="page-header" id="previsions">
                     <h1>Mes prévisions <small>soyez réaliste..</small></h1>
                 </div>
                 <div class="row">

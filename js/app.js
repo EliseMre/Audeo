@@ -62,6 +62,15 @@ $("#cal").click(function () {
         });
 
         $('#res').hide().removeClass('hide').slideDown('fast')
-
+        $('html, body').animate({
+            scrollTop: $("#res").offset().top
+        }, 1000);
     });
+});
+
+
+$("#goToPre").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#previsions").offset().top
+    }, 1000);
 });
