@@ -97,10 +97,10 @@ foreach($data->mat as $mat)
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-0">
+                    <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-0 hide" id="res">
                         <div class="panel panel-default">
                             <div class="panel-heading">Résults</div>
-                            <table class="table">
+                            <table class="table" id="res-tab">
                             </table>
                         </div>
                     </div>
