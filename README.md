@@ -1,5 +1,5 @@
 # Audeo
-Audeo is a website for french students of preparatory class. Take a look by [clicking here](http://audeo.ml).
+Audeo is a website for french students of preparatory class. Take a look by [clicking here](http://audeo.ml){:target="_blank"}.
 
 ### What for ?
 After a buisness prep, french students will take the competitive entrance examinations to graduate business schools. But as clever students they can't take all exams. It would be a waste of time to work for exams they'll never pass !
