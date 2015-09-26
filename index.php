@@ -126,29 +126,6 @@ foreach($data->mat as $mat)
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/style.js"></script>
         <script src="js/app.js"></script>
-        <style>
-            .ui-loading .ui-loader {
-                display: block;
-            }
-
-            .ui-loader {
-                display: none;
-                position: absolute;
-                opacity: .85;
-                z-index: 100;
-                left: 50%;
-                width: 200px;
-                margin-left: -130px;
-                margin-top: -35px;
-                padding: 10px 30px;
-            }
-
-            input[type=number]::-webkit-inner-spin-button,
-            input[type=number]::-webkit-outer-spin-button {
-                -webkit-appearance: none;
-                margin: 0;
-            }
-        </style>
     </body>
 
 </html>
