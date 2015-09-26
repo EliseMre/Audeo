@@ -60,33 +60,41 @@
     padding: 10px 30px;
 }
 
+input[type="number"] {
+    -o-appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    -ms-appearance: textfield;
+    -khtml-appearance: textfield;
+}
+
 input[type=number]::-o-inner-spin-button,
 input[type=number]::-o-outer-spin-button {
-    -o-appearance: none;
+    -o-appearance: textfield;
     margin: 0;
 }
 
 input[type=number]::-moz-inner-spin-button,
 input[type=number]::-moz-outer-spin-button {
-    -moz-appearance: none;
+    -moz-appearance: textfield;
     margin: 0;
 }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
+    -webkit-appearance: textfield;
     margin: 0;
 }
 
 input[type=number]::-ms-inner-spin-button,
 input[type=number]::-ms-outer-spin-button {
-    -ms-appearance: none;
+    -ms-appearance: textfield;
     margin: 0;
 }
 
 input[type=number]::-khtml-inner-spin-button,
 input[type=number]::-khtml-outer-spin-button {
-    -khtml-appearance: none;
+    -khtml-appearance: textfield;
     margin: 0;
 }
 
