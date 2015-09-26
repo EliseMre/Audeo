@@ -35,7 +35,7 @@
 
         <div class="container">
 
-            <header class="jumbotron main-jumbo">
+            <header class="jumbotron main-jumbo center">
                 <h1>Calcul vos moyennes</h1>
                 <p>Vous êtes en deuxième année de prépa et il est temps de se poser les bonnes questions. Post-Prépa vous aide a trouver l'école la plus adaptée a votre niveau en calculant pour vous les moyennes que vous obtiendrez aux concours sur la base des notes que vous estimez</p>
 
@@ -80,7 +80,7 @@ foreach($data->mat as $mat)
                                                         <span class="glyphicon glyphicon-minus"></span>
                                                     </button>
                                                     </span>
-                                                    <input type="number" name="<?=$mat->id?>" id="<?=$mat->id?>" class="form-control input-number" value="10" min="0" max="20">
+                                                    <input type="number" name="<?=$mat->id?>" id="<?=$mat->id?>" class="form-control input-number" value="0" min="0" max="20">
                                                     <span class="input-group-btn">
                                                     <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="<?=$mat->id?>">
                                                         <span class="glyphicon glyphicon-plus"></span>
@@ -98,7 +98,7 @@ foreach($data->mat as $mat)
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-lg-offset-2 col-md-offset-0 hide" id="res">
-                        <div class="panel panel-default">
+                        <div class="panel panel-primary">
                             <div class="panel-heading">Ecoles</div>
                             <table class="table" id="res-tab">
                             </table>

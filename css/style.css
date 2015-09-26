@@ -89,3 +89,9 @@ input[type=number]::-khtml-outer-spin-button {
     -khtml-appearance: none;
     margin: 0;
 }
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
