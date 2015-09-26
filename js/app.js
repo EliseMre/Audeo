@@ -40,15 +40,7 @@ $("#cal").click(function () {
         });
 
         //console.log(results);
-
-        $(
-            "<thead><tr>" +
-            "<th>Ecole</th>" +
-            "<th>Seuil</th>" +
-            "<th>Moyenne</th>" +
-            "<th>Diff</th>" +
-            "</tr></thead><tbody id=\"res-tab-body\"></tbody>"
-        ).appendTo("#res-tab");
+        $("#res-tab-body").html("");
 
         $.each(results, function (i, res) {
             $(
@@ -63,7 +55,7 @@ $("#cal").click(function () {
 
         $('#res').hide().removeClass('hide').slideDown('fast')
         $('html, body').animate({
-            scrollTop: $("#res").offset().top
+            scrollTop: $("#res").offset().top - 56
         }, 1000);
     });
 });
@@ -71,6 +63,6 @@ $("#cal").click(function () {
 
 $("#goToPre").click(function () {
     $('html, body').animate({
-        scrollTop: $("#previsions").offset().top
+        scrollTop: $("#previsions>h1").offset().top - 56
     }, 1000);
 });

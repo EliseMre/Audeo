@@ -101,6 +101,15 @@ foreach($data->mat as $mat)
                         <div class="panel panel-primary">
                             <div class="panel-heading">Ecoles</div>
                             <table class="table" id="res-tab">
+                                <thead>
+                                    <tr>
+                                        <th>Ecole</th>
+                                        <th>Seuil</th>
+                                        <th>Moyenne</th>
+                                        <th>Diff</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="res-tab-body"></tbody>
                             </table>
                         </div>
                     </div>
